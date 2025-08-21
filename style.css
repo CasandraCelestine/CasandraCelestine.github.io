@@ -1,6 +1,101 @@
 body {
-    background: rgb(123, 104, 195);
-    color: rgb(0, 0, 0);
+    background: rgb(141, 98, 225);
+    color: rgb(100, 80, 116);
     padding: 10px;
     font-family: Arial, sans-serif;
+}
+
+#all-contents {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* navigation menu */
+nav {
+    background: rgb(232, 224, 240);
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    flex: 1;
+    margin: 0;
+}
+
+#nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* main container area beneath menu */
+main {
+    background: rgb(51, 9, 136);
+    display: flex;
+    margin-top: 20px;
+}
+
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+
+.sidebar-img {
+    width: 200px;
+}
+
+.content {
+    flex: 1;
+    padding: 15px;
+}
+
+/* interests section styles */
+#interests {
+    border: 4px silver ridge;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+h2, h3 {
+    margin: 0px;
+}
+nav {
+  background: rgb(189, 113, 224);
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+}
+nav {
+  background: rgb(255, 255, 255);
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+body {
+  background: #000000;
+  color: #7945b1;
+}
+
+nav {
+  background: #d4bfbf;
+}
+
+a {
+  color: #905fc8;
 }
